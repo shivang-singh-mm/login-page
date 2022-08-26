@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<style>
+
+    #body{
+        background-size: cover; 
+        background-blend-mode:soft-light ;
+        background: rgba(0,0,0, .05)
+        url("https://th.bing.com/th/id/OIP.ybLSyYquwMYe2ikZHimV1AHaHa?pid=ImgDet&w=500&h=500&rs=1"); 
+    }
+
+    .mains {
+    border-radius: 20px; 
+    text-align: center;
+    margin: 40px 400px 40px 400px;
+    padding-top: 45px;
+    padding-bottom: 100px; 
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#link{
+    text-align: right;
+}
+
+</style>
+
+<body style="background-color: rgb(9, 222, 9, .5)"><div class="bod">
+    <div class="mains" id="body">
+    <form action="/register" method="POST">
+        <h1 style="margin-bottom: 50px">REGISTER PAGE</h1>
+        <div style="margin-top: 10px; margin-bottom: 10px">
+            <label for="name">Enter your name</label>
+            <input type="name" id="name" name="name" required>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px">
+            <label for="email">Enter you email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px">
+            <label for="password">Enter password</label>
+            <input for="password" name="password" id="password" required>
+        </div>
+        <div style="margin-top: 10px; margin-bottom: 10px">
+            <label for="age">Enter age</label>
+            <input for="age" name="age" id="age" required>
+        </div><div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form><div id="link">
+    <a href="/login">Click to go to login</a>
+    </div>
+</div></div>
+</body>
